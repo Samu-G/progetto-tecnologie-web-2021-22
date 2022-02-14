@@ -1,0 +1,86 @@
+body {
+    padding-top: 54px;
+    font-family: Ubuntu, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Prompt, sans-serif;
+}
+
+a {
+    font-size: 17px
+}
+
+a.navbar-brand {
+    font-family: Prompt, sans-serif;
+    font-size: 21px
+}
+
+#navigazione {
+    box-shadow: 5px 2px 3px 5px rgba(0, 0, 0, 0.75)
+}
+
+a.nav-link, a.navbar-brand {
+    color: #ccc
+}
+
+button.navbar-toggler {
+    background-color: #ccc
+}
+
+span.navbar-toggler-icon {
+    color: #6D2424
+}
+
+.altezza {
+    height: 100%;
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+}
+
+hr {
+    width: 10%;
+    color: #fff;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    margin-bottom: 15px;
+}
+
+input,
+input::-webkit-input-placeholder {
+    font-size: 11px;
+    padding-top: 3px;
+}
+
+
+.login-button {
+    margin-top: 5px;
+}
+
+.login-register {
+    font-size: 11px;
+    text-align: center;
+}
+
+.form-message {
+    text-align: center;
+    color: #162A83;
+    padding: 10px 0;
+    text-transform: capitalize;
+    background: rgba(231, 235, 249, 1);
+    font-size: 12px;
+    display: none;
+}
+
+.form-message p {
+    margin: 0;
+}
